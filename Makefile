@@ -15,7 +15,7 @@ results/sierra.dat: scripts/wordcount.py data/sierra.txt
 
 # create plots
 results/figure/isles.png: scripts/plotcount.py results/isles.dat
-	python scripts/plotcount.py --input_file=results/isles/dat --output_file=results/figure/isles.png
+	python scripts/plotcount.py --input_file=results/isles.dat --output_file=results/figure/isles.png
 
 results/figure/abyss.png: scripts/plotcount.py results/abyss.dat
 	python scripts/plotcount.py --input_file=results/abyss.dat --output_file=results/figure/abyss.png
